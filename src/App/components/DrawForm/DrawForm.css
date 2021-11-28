@@ -1,0 +1,31 @@
+.flex {
+  display: flex;
+  justify-content: center;
+}
+.img {
+  display: flex;
+}
+.result {
+  display: flex;
+  border: 2px solid #fff;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 250px;
+}
+
+.tab {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card{
+  display: flex;
+  background-color: aquamarine;
+  justify-content: center;
+  border: 1px solid #fff;
+  color: #000;
+  font-size: .5rem;
+  margin: 2px 5px 2px 5px;
+}
